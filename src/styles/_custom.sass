@@ -1,0 +1,41 @@
+
+
+
+
+.margenNegativo
+  margin-inline: -3rem
+
+.bloque-texto-a.color-primario 
+  background-color: #A6DAD7
+
+.bloque-texto-a.color-primario:before 
+  background-color: #EEEEF2
+
+.bloque-texto-a:before
+  left: 58%
+
+.tarjetas-claras
+  .tarjeta
+    &.color-primario
+      background-color: lighten($color-primario, 1%)
+      
+    &.color-secundario
+      background-color: lighten($color-secundario, 15%)
+
+.tarjeta.color-primario * 
+  color: $color-sistema-texto
+
+.tarjetas-claras .tarjeta.color-primario 
+  background-color: #A6DAD7
+
+.anexo
+  background-color: #fff
+
+
+.fa-biohazard
+  color: #D93328
+
+
+@media screen and ( max-width: $bp-max-xs )
+  .margenNegativo
+    margin-inline: -1.5rem

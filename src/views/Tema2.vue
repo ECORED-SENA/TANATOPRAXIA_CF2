@@ -17,17 +17,80 @@
           img(src='@/assets/curso/tema2/dinamica.svg', alt='Texto que describa la imagen')
           
 
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+      .tarjeta.tarjeta--gris(x="17%" y="17%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 PELIGROSO
+        .col-lg-12.px-3.py-3(style='')
+          p  Son residuos que representan un alto riesgo de infección, ya que pueden contener altas cargas de microorganismos patógenos, tales como virus, bacterias, hongos o parásitos.
       
-      .tarjeta.color-acento-botones.p-3(x="50%" y="50%")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+      .tarjeta.tarjeta--gris(x="4%" y="28.5%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 RIESGO BIOLÓGICO E INFECCIOSO
+        .col-lg-12.px-3.py-3(style='') 
+          p Son residuos que representan un alto riesgo de infección, ya que pueden contener altas cargas de microorganismos patógenos, tales como virus, bacterias, hongos o parásitos.
+      
+      .tarjeta.tarjeta--gris(x="4%" y="37.5%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 RADIOACIVO
+        .col-lg-12.px-3.py-3(style='') 
+          p Son sustancias emisoras de energía predecible y continua en forma alfa, beta o de fotones, cuya interacción con materia puede dar lugar a rayos X y neutrones.
+      
+      .tarjeta.tarjeta--gris(x="4%" y="45.5%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 QUÍMICO
+        .col-lg-12.px-3.py-3(style='') 
+          p Son residuos contaminados con sustancias químicas capaces de producir la muerte dependiendo de sus niveles de concentración, entre ellos se encuentran: los fármacos, los residuos derivados de tratamientos oncológicos, metales pesados (plomo, cromo, zinc, mercurio) y los aceites usados.
+      
+      .tarjeta.tarjeta--gris(x="4%" y="54%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 OTRAS CARACTERISTICAS
+        .col-lg-12.px-3.py-3(style='')
+          p  Son los residuos producidos por el generador con características de origen infeccioso, radiactivo, químico, corrosivo, tóxico, entre otros, que representan un riesgo para la comunidad y el medio ambiente.
+      /// riesgo biologico e infeccioso///////////////
+      .tarjeta.tarjeta--gris(x="29%" y="28.5%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 ANATOMOPATOLÓGICO
+        .col-lg-12.px-3.py-3(style='') 
+          p Son todos aquellos residuos provenientes de partes y/o restos humanos, como muestras de tejidos, biopsias, amputaciones, restos de cadáveres y fluidos corporales.
 
-      .tarjeta.color-acento-botones.p-3(x="70%" y="70%")
-        .h5.mb-2 titulo
-        p Lorem ipsum do
+      .tarjeta.tarjeta--gris(x="29%" y="37.5%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 BIOSANITARIOS
+        .col-lg-12.px-3.py-3(style='') 
+          p Son todos los elementos resultantes de los procesos realizados donde el material esté contaminado con sangre o fluidos.
+
+      .tarjeta.tarjeta--gris(x="29%" y="45.5%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 CORTOPUNZANTES
+        .col-lg-12.px-3.py-3(style='') 
+          p Son los instrumentos que por su capacidad cortante o punzante puedan ocasionar un accidente percutáneo. Acá se encuentran las agujas, las hojas de bisturí, trocar y cuchillas.
+      
+      .tarjeta.tarjeta--gris(x="29%" y="54%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 DE ANIMALES
+        .col-lg-12.px-3.py-3(style='') 
+          p Son los restos de animales usados para fines de investigación, muestra o testeo, los cuales se encuentran contaminados con un agente infeccioso.
+      //no peligrosos//////////////////////////
+      
+      .tarjeta.tarjeta--gris(x="61%" y="17%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 NO PELIGROSO
+        .col-lg-12.px-3.py-3(style='')
+          p  Residuos que no poseen peligrosidad o riesgo de infección o contaminación al medio ambiente o a la persona. Entre ellos:<br> 1. Biogradables, 2. Reciclables, 3. Inertes, 4. Ordinarios.
+      
+      .tarjeta.tarjeta--gris(x="60.5%" y="37%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 NO APROVECHABLES
+        .col-lg-12.px-3.py-3(style='')
+          p Son aquellos residuos que por sus características no pueden ser aprovechados y por lo tanto debe darse una disposición final adecuada. 
+      
+      .tarjeta.tarjeta--gris(x="60.5%" y="28.5%")
+        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
+          .h5.text-white.mb-0 APROVECHABLES
+        .col-lg-12.px-3.py-3(style='')
+          p Son todos los residuos que por sus características se pueden reintroducir a la cadena productiva o aquellos a los que se les puede dar un uso diferente.
+      
+      
 
 
     p.mb-5 Identificados los residuos peligrosos y no peligrosos generados en las instalaciones de una organización, es importante la estructuración e implementación de un plan para la gestión integral de residuos hospitalarios y similares (PGIRH), el cual se estructura con base en dos componentes, según el Manual de procedimientos para la gestión integral de residuos hospitalarios y similares (MPGIRH), en Colombia (Ministerio del Medio Ambiente y Ministerio de Salud, 2002). Ellos son:

@@ -57,12 +57,12 @@ export default {
       },
     ],
     subMenu: [
-      /*{
+      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },*/
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',

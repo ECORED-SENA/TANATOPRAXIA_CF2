@@ -19,7 +19,7 @@
         .row.justify-content-center
           .col-auto
             h2.mb-5.text-center Caracterización de la población a <br>quien va a capacitar
-            p.mb-4.text-center ¿Qué tipo de personal recibirá esta sensibilización? Si es personal operativo, administrativo, asistencial, pacientes o usuarios
+            p.mb-4.text-center ¿Qué tipo de personal recibirá esta sensibilización? Si es personal operativo, administrativo, asistencial, pacientes o usuarios.
       
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
@@ -29,7 +29,7 @@
         .row.justify-content-center
           .col-auto
             h2.text-center(style='margin-bottom: 75px;') Programa de capacitación
-            p.mb-4.text-center donde se deben describir el objetivo las frecuencias, las metodologías a usar, los temas a presentar, a quién va dirigido y quién realizará la capacitación. Este debe incluir la socialización de cada uno de los componentes desarrollados en el Plan de Gestión.
+            p.mb-4.text-center Donde se deben describir el objetivo las frecuencias, las metodologías a usar, los temas a presentar, a quién va dirigido y quién realizará la capacitación. Este debe incluir la socialización de cada uno de los componentes desarrollados en el Plan de Gestión.
 
 
 

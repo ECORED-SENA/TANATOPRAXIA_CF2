@@ -21,7 +21,7 @@
         .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
           .h5.text-white.mb-0 PELIGROSO
         .col-lg-12.px-3.py-3(style='')
-          p  Son residuos que representan un alto riesgo de infección, ya que pueden contener altas cargas de microorganismos patógenos, tales como virus, bacterias, hongos o parásitos.
+          p  Son los residuos producidos por el generador con características de origen infeccioso, radiactivo, químico, corrosivo, tóxico, entre otros, que representan un riesgo para la comunidad y el medio ambiente.
       
       .tarjeta.tarjeta--gris(x="4%" y="28.5%")
         .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
@@ -40,12 +40,7 @@
           .h5.text-white.mb-0 QUÍMICO
         .col-lg-12.px-3.py-3(style='') 
           p Son residuos contaminados con sustancias químicas capaces de producir la muerte dependiendo de sus niveles de concentración, entre ellos se encuentran: los fármacos, los residuos derivados de tratamientos oncológicos, metales pesados (plomo, cromo, zinc, mercurio) y los aceites usados.
-      
-      .tarjeta.tarjeta--gris(x="4%" y="54%")
-        .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
-          .h5.text-white.mb-0 OTRAS CARACTERISTICAS
-        .col-lg-12.px-3.py-3(style='')
-          p  Son los residuos producidos por el generador con características de origen infeccioso, radiactivo, químico, corrosivo, tóxico, entre otros, que representan un riesgo para la comunidad y el medio ambiente.
+            
       /// riesgo biologico e infeccioso///////////////
       .tarjeta.tarjeta--gris(x="29%" y="28.5%")
         .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
@@ -122,10 +117,10 @@
 
 
     .row.justify-content-center
-      .col-lg-4
+      .col-lg-4.mb-4
         figure
-          img(src='@/assets/curso/tema2/img3.jpg', alt='Gestión integral de residuos hospitalarios')
-      .col-lg-8
+          img.mx-auto(src='@/assets/curso/tema2/img3.jpg', alt='Gestión integral de residuos hospitalarios', style='width:400px;')
+      .col-lg-10.col-xl-8
         p.mb-4 El plan para la gestión integral de residuos hospitalarios y similares (PGIRH) debe contar con un plan de contingencias, capacitación y socialización a sus empleados, un programa de seguridad y salud en el trabajo y cronograma de actividades. Este último debe actualizarse cada dos (2) años, si llegase a existir algún cambio que modifique la gestión de residuos, o cuando la entidad competente lo solicite.  Para establecer la cantidad de residuos generados, se lleva un registro que debe contener la siguiente información:
         .row.justify-content-center
           .col-auto.mb-4
@@ -170,8 +165,8 @@
     
     .row.justify-content-center.mb-4
       .col-lg-5.mb-4
-        figure
-          img(src='@/assets/curso/tema2/img7.svg', alt='imagen ambiental', style='width:400px;')
+        figure.responsive
+          img.mx-auto(src='@/assets/curso/tema2/img7.svg', alt='imagen ambiental', style='width:400px;')
       .col-lg-7
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Diagnóstico ambiental y sanitario")
@@ -186,7 +181,7 @@
             .col-md-12.mb-4.mb-md-0
               p.mb-4 Consiste en la separación, almacenamiento y transporte adecuado de los residuos generados al interior de la empresa. Este paso es fundamental para dar inicio al plan de manejo integral de residuos. Para la segregación de los residuos, se debe de contar con los recipientes o contenedores adecuados para evitar así que residuos no peligrosos se contaminen al tener contacto con residuos peligrosos.
               p.mb-5 Para la realización de este procedimiento, se debe de cumplir con ciertas condiciones, entre ellas se encuentran:
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/infografia.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -236,7 +231,7 @@
             .col-md-12.mb-4.mb-md-0
               p.mb-2 El Ministerio del Trabajo, comprometido con el mejoramiento de las políticas del cuidado al trabajador, estableció el
                 b Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST),
-                b-none el cual debe ser implementado por todos los empleadores, y consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua, lo cual incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en los espacios laborales  (Ministerio del Trabajo, Decreto 1072 de 2015 Libro 2, Parte 2, Título 4, Capítulo 6).
+                b-none  el cual debe ser implementado por todos los empleadores, y consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua, lo cual incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en los espacios laborales  (Ministerio del Trabajo, Decreto 1072 de 2015 Libro 2, Parte 2, Título 4, Capítulo 6).
 
           .row(numero="12" titulo="Cronograma")
             .col-md-12.mb-4.mb-md-0

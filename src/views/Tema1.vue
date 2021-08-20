@@ -8,7 +8,7 @@
         span 1
       h1 Manejo de residuos hospitalarios y similares
 
-    p.mb-4
+    p.mb-5 Es indispensable que todo generador de residuos sólidos y hospitalarios conozca, analice y cumpla con la normatividad y la legislación actual del manejo de estos residuos, sin importar su naturaleza jurídica ni su capacidad de generación. Todos estos residuos deberán depositarse de acuerdo con sus características y siguiendo el código de colores establecido para tal fin, el cual usted identificará más adelante.
     .row.justify-content-center.mb-3
       .col-lg-4
         figure.mb-2

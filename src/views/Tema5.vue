@@ -12,7 +12,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-5
-        figure.mb-2
+        figure.mb-4
           img.mx-auto(src='@/assets/curso/tema5/img1.jpg', alt='Mal manejo de residuos hospitalarios', style='width:410px;')
       .col-lg-7
         p.mb-4 Para evitar enfermedades ocasionadas por el mal manejo de los residuos hospitalarios, todo el personal de recolección y transporte siempre deberá contar con elementos de protección personal, tales como gafas, guantes resistentes a pinchazos de aguja, cortes por vidrios u otros materiales cortopunzantes, y ropa única y exclusivamente para esta actividad (delantal desechable o lavable y botas de goma). Todo esto ayudará a minimizar el posible riesgo de contagio por exposición a residuos peligrosos.
@@ -51,7 +51,8 @@
             h2.text-center.mb-5(style='') Reporte como empleado
             p.mb-4.text-center Se tendrá que comunicar inmediatamente el suceso a su empleador, para que este active la ruta y usted pueda recibir la atención que necesita. Si este accidente genera una afectación de la condición de salud que no da espera, podrá visitar una sala de urgencias.
 
-
+    .cajon.color-secundario.p-4.mb-4
+      p.mb-0 Al reconocer y aplicar estas disposiciones para el manejo integral de residuos biosanitarios y similares, se está garantizando el cuidado de la salud personal y del medio ambiente, ayudando así en la reducción de materiales contaminantes y que, en ocasiones, van a procesos inadecuados de tratamiento, los cuales proveerán un medio propicio para la reproducción de diferentes agentes patógenos, provocando así diferentes tipos de enfermedades, tanto en el empleado del generador como en la población. Igualmente, se producirán afectaciones en el medio ambiente, como efecto invernadero, reducción de la capa de ozono y contaminación del suelo, el agua y el aire.  Y, por último, se dará cumplimiento a los lineamientos y requerimientos establecidos por normativa para la gestión de dichos recursos.
 
 
 

@@ -123,7 +123,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social, Ministerio de Ambiente y Desarrollo Sostenible y Ministerio de Transporte. (2015). Proyecto de manual para la gestión integral de residuos generados en la atención de salud y otras actividades.',
+        'Ministerio de Salud y Protección Social, Ministerio de Ambiente y Desarrollo Sostenible y Ministerio de Transporte. (2015). Proyecto de manual para la gestión integral de residuos generados en la atención de salud y otras actividades.<br>',
       link:
         'https://www.minambiente.gov.co/images/Atencion_y_particpacion_al_ciudadano/Consulta_Publica/V_22_Manual_Gesti%C3%B3n_Integral_16_12_14_CP.pdf',
     },
@@ -242,12 +242,6 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Andrés Mauricio Santaella Ochoa',
-        cargo: 'Soporte front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
@@ -264,12 +258,18 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      /*{
-        nombre: 'Nombre',
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Isabel Román Rueda',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },*/
+      },
     ],
     gestoresRepositorio: [
       {

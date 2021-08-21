@@ -117,19 +117,19 @@
 
 
     .row.justify-content-center
-      .col-lg-4.mb-4
+      .col-lg-4.mb-4.align-self-center
         figure
           img.mx-auto(src='@/assets/curso/tema2/img3.jpg', alt='Gestión integral de residuos hospitalarios', style='width:400px;')
-      .col-lg-10.col-xl-8
+      .col-lg-8
         p.mb-4 El plan para la gestión integral de residuos hospitalarios y similares (PGIRH) debe contar con un plan de contingencias, capacitación y socialización a sus empleados, un programa de seguridad y salud en el trabajo y cronograma de actividades. Este último debe actualizarse cada dos (2) años, si llegase a existir algún cambio que modifique la gestión de residuos, o cuando la entidad competente lo solicite.  Para establecer la cantidad de residuos generados, se lleva un registro que debe contener la siguiente información:
         .row.justify-content-center
-          .col-auto.mb-4
+          .col-auto.mb-4.px-xl-0
             figure
               img(src='@/assets/curso/tema2/img4.svg', alt='Gestión integral de residuos hospitalarios', style='width:234px;')
-          .col-auto.mb-4
+          .col-auto.mb-4.px-xl-0
             figure
               img(src='@/assets/curso/tema2/img5.svg', alt='Gestión integral de residuos hospitalarios', style='width:234px;')
-          .col-auto.mb-4
+          .col-auto.mb-4.px-xl-0
             figure
               img(src='@/assets/curso/tema2/img6.svg', alt='Gestión integral de residuos hospitalarios', style='width:234px;')
 
@@ -165,8 +165,9 @@
     
     .row.justify-content-center.mb-4
       .col-lg-5.mb-4
-        figure.responsive
-          img.mx-auto(src='@/assets/curso/tema2/img7.svg', alt='imagen ambiental', style='width:400px;')
+        figure
+          .responsive
+            img(src='@/assets/curso/tema2/img7.svg', alt='imagen ambiental', style='')
       .col-lg-7
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Diagnóstico ambiental y sanitario")

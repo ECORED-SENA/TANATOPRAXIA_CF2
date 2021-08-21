@@ -37,16 +37,22 @@
   color: #D93328
 
 .responsive
-  width: 404px
-  text-align: -webkit-center
-  display: contents
+  width: 400px
+  display: flex
+  margin: auto
+
 
 @media screen and ( max-width: $bp-max-xs )
   .margenNegativo
     margin-inline: -1.5rem
   .responsive
     width: 280px
-    text-align: -webkit-center
+    
+@media screen and ( max-width: $bp-max-lg)
+  .responsive
+    width: 300px
+    
+    
     
 
   

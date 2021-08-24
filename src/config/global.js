@@ -105,7 +105,7 @@ export default {
     },
     {
       referencia:
-        'Decreto 1072 de 2015. [Ministerio de trabajo]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo. Mayo 26 de 2015.',
+        'Decreto 1072 de 2015. [Ministerio de trabajo]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo. Mayo 26 de 2015.<br>',
       link:
         'https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8',
     },
@@ -117,7 +117,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio del Medio Ambiente y Ministerio de Salud. (2002). Gestión integral de residuos hospitalarios y similares en Colombia. Manual de procedimiento.',
+        'Ministerio del Medio Ambiente y Ministerio de Salud. (2002). Gestión integral de residuos hospitalarios y similares en Colombia. Manual de procedimiento.<br>',
       link:
         'https://www.slideshare.net/viluvedu/manual-residuos-hospitalarios-1',
     },

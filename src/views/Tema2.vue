@@ -186,7 +186,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p #[strong Anexo.] Plan de manejo integral de residuos
+                  p #[strong Anexo.] Segregación en la fuente
 
           .row(numero="4" titulo="Desactivación")
             .col-md-12.mb-4.mb-md-0

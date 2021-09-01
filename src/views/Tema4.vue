@@ -8,6 +8,12 @@
         span 4
       h1 Sistema de vigilancia epidemiológica
 
+    figure.mb-5
+      .video
+        <iframe width="933" height="525" src="https://www.youtube.com/embed/z2IgW8GoefI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+
+
     p.mb-5 El sistema de vigilancia epidemiológica (SVE) es un programa de vigilancia que permite identificar, recolectar y monitorear la salud de los empleados, para así determinar la incidencia de los factores de riesgo de cada una de las operaciones y prevenir enfermedades laborales. Este sistema también ayudará a implementar y fomentar en todos los trabajadores mejores hábitos de salud laboral, para así promover una mejor calidad de vida. Este proceso comienza con:
     
     .row.justify-content-center.mb-4

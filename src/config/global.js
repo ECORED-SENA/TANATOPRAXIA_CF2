@@ -1,10 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'Manejo de residuos hospitalarios y similares',
+    componenteFormativo: 'Embalsamar la persona fallecida',
     descripcionCurso:
-      'El presente componente de formación surge en el contexto del manejo de los residuos hospitalarios y similares, generados en entidades prestadoras de salud o similares, los cuales deben gestionarse a partir de la normativa para controlar infecciones y la conservación del buen estado de salud en las comunidades, personal de la salud y del medio ambiente.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner.png'),
+      'El presente componente de formación surge de la necesidad identificar el proceso que se realiza para el embalsamamiento de un cadáver de acuerdo a la normatividad vigente y protocolos técnicos.  En este proceso se involucra la identificación de químicos que contribuyen a retardar la descomposición del cuerpo para que se realice su ritual de despedida. Bienvenido.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-img.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/banner-bg.png'),
   },
   menuPrincipal: {
     menu: [
@@ -23,37 +23,63 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Manejo de residuos hospitalarios y similares',
+        titulo: 'La muerte en la tanatopraxia',
         desarrolloContenidos: true,
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Gestión interna en el manejo de residuos hospitalarios y similares',
+        titulo: 'Descomposición en la tanatopraxia',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Tipos de descomposición',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Orden de descomposición del cuerpo humano',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Períodos y signos de la descomposición',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Comunicación y sensibilización',
+        titulo: 'Naturaleza y propósito del embalsamamiento',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Sistema de vigilancia epidemiológica ',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo: 'Riesgos y reportes',
-        desarrolloContenidos: true,
+        subMenu: [
+          /*{
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Higienización integral',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Propósito estético de la tanatopraxia',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Propósito de la preservación química',
+            hash: 't_3_3',
+          },*/
+        ],
       },
     ],
     subMenu: [
@@ -93,92 +119,108 @@ export default {
   referencias: [
     {
       referencia:
-        'Decreto 4741 de 2005 [Ministerio de Ambiente, Vivienda y Desarrollo Territorial]. Por el cual se reglamenta parcialmente la prevención y manejo de los residuos o desechos peligrosos generados en el marco de la gestión integral. Diciembre 30 de 2005.',
-      link:
-        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=18718',
+        'De la Cruz, D. y Holmes, R. (2018). Turning art into science. Tuesday Evening Publications.',
     },
     {
       referencia:
-        'Decreto 351 del 2014. [Ministerio de Salud y Protección Social]. Por el cual se reglamenta la gestión integral de los residuos generados en la atención en salud y otras actividades. Febrero 19 de 2014.',
+        'Diccionario médico. (s.f.). Sutura en bolsa de tabaco. Cun.es. ',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56755',
+        'https://www.cun.es/diccionario-medico/terminos/sutura-bolsa-tabaco ',
     },
     {
       referencia:
-        'Decreto 1072 de 2015. [Ministerio de trabajo]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo. Mayo 26 de 2015.<br>',
-      link:
-        'https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8',
+        'Mayer, R. (2006). Embalsamamiento. Historia, teoría y práctica. McGraw Hill.',
     },
     {
       referencia:
-        'Ley 1562 de 2012. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional. Julio 11 de 2012. DO. Nº 48.488.',
+        'Resolución 0773 de 2021. [Ministerio del Trabajo]. Por la cual se definen las acciones que deben desarrollar los empleadores para la aplicación del sistema globalmente armonizado de clasificación y etiquetado de productos químicos en los lugares de trabajo. ',
       link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Ley-1562-de-2012.pdf',
+        'https://www.mintrabajo.gov.co/documents/20147/61442826/0773.PDF/3047cc2b-eae1-e021-e9bf-d8c0eac23e05?t=1617984928238 ',
     },
     {
       referencia:
-        'Ministerio del Medio Ambiente y Ministerio de Salud. (2002). Gestión integral de residuos hospitalarios y similares en Colombia. Manual de procedimiento.<br>',
-      link:
-        'https://www.slideshare.net/viluvedu/manual-residuos-hospitalarios-1',
+        'Serrano, V (2018). La química de los fenómenos cadavéricos. Universitat de València. ',
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social, Ministerio de Ambiente y Desarrollo Sostenible y Ministerio de Transporte. (2015). Proyecto de manual para la gestión integral de residuos generados en la atención de salud y otras actividades.<br>',
-      link:
-        'https://www.minambiente.gov.co/images/Atencion_y_particpacion_al_ciudadano/Consulta_Publica/V_22_Manual_Gesti%C3%B3n_Integral_16_12_14_CP.pdf',
+        'The Dodge Company. (2008). The preparation room. The Dodge Company. ',
     },
   ],
   glosario: [
     {
-      termino: 'Atención en salud',
+      termino: 'Aurícula derecha',
       significado:
-        'Conjunto de servicios que se brindan a las personas en relación con aseguramiento y actividades de promoción y prevención.',
+        'Cámara del lado derecho del corazón vista como el centro de drenaje. Se usa como un sitio de drenaje con instrumentos desde la vena yugular interna y de forma directa con un trocar o por la pared torácica.',
     },
     {
-      termino: 'Etiqueta',
+      termino: 'Centro de distribución de los líquidos',
+      significado: 'Aorta ascendente.',
+    },
+    { termino: 'Dermis', significado: 'Piel real.' },
+    {
+      termino: 'Descomposición',
       significado:
-        'Información impresa que indica sobre el riesgo de peligrosidad de los materiales. Para envases y empaques debe medir 10 cm X 10 cm.',
+        'Separación de los compuestos en sustancias más simples, mediante la acción de enzimas bacterianas o autolíticas.',
     },
     {
-      termino: 'Generador',
+      termino: 'Edema',
       significado:
-        'Es la persona natural o jurídica que produce residuos hospitalarios y similares en desarrollo de actividades relacionadas con prestación de servicios de salud, entre ellos los cementerios, morgues, funerarias y hornos crematorios.',
+        'Acumulación anormal de líquidos en los tejidos o cavidades corporales.',
     },
     {
-      termino: 'Residuos hospitalarios y similares',
+      termino: 'Embalsamamiento',
       significado:
-        'Son los elementos, insumos, materiales o instrumentos que tienen suficientes patógenos como para causar una enfermedad.',
+        'Proceso de tratamiento químico del cadáver para reducir la presencia y el crecimiento de microorganismos; retardar temporalmente la descomposición orgánica y restablecer un aspecto físico aceptable.',
     },
     {
-      termino: 'Segregación en la fuente',
+      termino: 'Gas en tejido',
       significado:
-        'Consiste en la separación, almacenamiento y transporte adecuado de los residuos generados al interior de la empresa.',
+        'Acumulación postmortem de gas en tejido o cavidades, generada por un bacilo formador de gas anaerobio (clostridium perfringens).',
     },
     {
-      termino: 'Unidad de almacenamiento',
+      termino: 'Glutaraldehído',
       significado:
-        'Son sitios de depósito cerrados y de carácter temporal para almacenar los residuos generados.',
+        'Está en la categoría de aldehído. Su uso en Tanatopraxia data de 1955, se encuentra en concentraciones acuosas del 25% con un olor suave y color claro. Su uso se ha extendido, ya que reacciona a estructuras de proteínas en un amplio rango de pH, por lo cual ayuda a retrasar los cambios de los procesos de descomposición.',
+    },
+    {
+      termino: 'Guías anatómicas',
+      significado:
+        'Referencias descriptivas para localizar arterias y venas mediante las estructuras anatómicas conocidas.',
+    },
+    {
+      termino: 'Paraformaldehido',
+      significado:
+        'Está en la categoría de aldehído. Este es polímero que contiene entre 85% y 99% de formaldehído, este se usa principalmente en polvo como compuesto de endurecimiento y para pulverizar las paredes toracoabdominales.',
+    },
+    {
+      termino: 'Químico para cavidades',
+      significado:
+        'Producto químico para embalsamar, que se inyecta en la cavidad del cadáver después de la aspiración en el embalsamamiento de la cavidad.',
+    },
+    {
+      termino: 'Surfactantes',
+      significado:
+        'Son químicos encargados de reducir la presión de superficie de la solución para que fluyan más fácilmente en el sistema circulatorio.',
+    },
+    {
+      termino: 'Trioxane',
+      significado:
+        'Está en la categoría de aldehído. Es un material cristalino incoloro, de olor parecido al cloroformo. También es usado como preservante auxiliar en los líquidos usados en tanatopraxia, pero resulta más costoso que otros líquidos, por ello no es muy común.',
     },
   ],
   complementario: [
     {
       texto:
-        'Decreto 351 del 2014. [Ministerio de Salud y Protección Social]. Por el cual se reglamenta la gestión integral de los residuos generados en la atención en salud y otras actividades. Febrero 19 de 2014.',
-      tipo: 'Decreto (texto digital)',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56755',
-    },
-    {
-      texto:
-        'Ministerio de Salud y Protección Social, Ministerio de Ambiente y Desarrollo Sostenible y Ministerio de Transporte. (2015). Proyecto de manual para la gestión integral de residuos generados en la atención de salud y otras actividades.',
-      tipo: 'Pdf',
-      descarga: '/downloads/Manual_Gestión_Integra.pdf',
-    },
-    {
-      texto:
-        'Ley 1562 de 2012. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional. Julio 11 de 2012. DO. Nº 48.488.',
+        'Serrano, V. (2018). La química de los fenómenos cadavéricos. Universitat de València.',
       tipo: 'Texto digital',
-      link: 'https://www.mintrabajo.gov.co/normatividad/leyes/2012',
+      link: 'https://www.uv.es/gicf/4A1_Serrano_GICF_29.pdf',
+    },
+    {
+      texto:
+        'Resolución 0773 de 2021. [Ministerio del Trabajo]. Por la cual se definen las acciones que deben desarrollar los empleadores para la aplicación del sistema globalmente armonizado de clasificación y etiquetado de productos químicos en los lugares de trabajo.',
+      tipo: 'Otro',
+      link:
+        'https://www.mintrabajo.gov.co/documents/20147/61442826/0773.PDF/3047cc2b-eae1-e021-e9bf-d8c0eac23e05?t=1617984928238',
     },
   ],
   creditos: {
@@ -194,7 +236,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Lina María Restrepo Zapata',
@@ -202,31 +244,37 @@ export default {
         centro: 'Centro de Servicios de Salud - Regional Antioquia',
       },
       {
+        nombre: 'Luz María Uribe Lotero',
+        cargo: 'Experta temática',
+        centro: 'Centro de Servicios de Salud - Regional Antioquia',
+      },
+      {
         nombre: 'Jhacesiz Mary Hincapié Atehortúa',
         cargo:
-          'Instructora (EPC) – Líder desarrollo curricular Servicios Personales',
-        centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          'Instructora (EPC) – Líder desarrollo curricular servicios personales',
+        centro: 'Centro de Servicios de Salud – Regional Antioquia',
       },
       {
         nombre: 'Adriana Maria Bustamante Cataño',
-        cargo: 'Profesional de Diseño y producción curricular',
-        centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        cargo: 'Profesional de diseño y producción curricular',
+        centro: 'Centro de Servicios de Salud – Regional Antioquia',
       },
       {
         nombre: 'Cristian Metaute Medina',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro:
-          'Centro para la Industria de la Comunicación Gráfica del SENA - Regional Distrito Capital',
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
       {
         nombre: 'Carolina Coca Salazar',
-        cargo: 'Revisión metodológica y pedagógica',
+        cargo: 'Revisora metodológica y pedagógica ',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
-        nombre: 'Darío González',
-        cargo: 'Corrección de estilo',
-        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -234,20 +282,39 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Zuleidy Maria Ruiz Torres',
+        nombre: 'Jesús Antonio Vecino Valero',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Walter Roa Serrano',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
         cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Wilson Andrés Arenales Cáceres',
+        nombre: 'Carmen Alicia Martínez Torres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -259,46 +326,27 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Daniela Muñoz Bedoya',
+        nombre: 'Nelson Iván Vera Briceño',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'José Jaime Luis Tang Pinzón',
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Ángela María Maldonado Jaime',
+        nombre: 'Zuleidy María Ruiz Torres',
         cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Jesus Antonio Vecino Valero'],
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'John Andres Ayala Angarita',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Andrés Mauricio Santaella Ochoa',
-        cargo: 'Soporte front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'María Isabel Román Rueda',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [

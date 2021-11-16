@@ -1,1 +1,1 @@
-module.exports = 'Manejo de residuos hospitalarios y similares'
+module.exports = 'Protocolos para el embalsamamiento'

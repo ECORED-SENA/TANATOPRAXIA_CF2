@@ -1,8 +1,8 @@
-# **Protocolos para el embalsamamiento**
+# **Embalsamar la persona fallecida**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/TANATOPRAXIA_CF7/](https://ecored-sena.github.io/TANATOPRAXIA_CF7/)
+[https://ecored-sena.github.io/TANATOPRAXIA_CF2/](https://ecored-sena.github.io/TANATOPRAXIA_CF2/)
 
 #
 

@@ -1,4 +1,4 @@
-# **Embalsamar la persona fallecida**
+# **Manejo de residuos hospitalarios y similares**
 
 ## **Enlace GitHubPages**
 

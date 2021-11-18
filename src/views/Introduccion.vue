@@ -9,52 +9,65 @@
           i.fas.fa-info
       h1 Introducción
     
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/if1.svg' alt='Morgue')
-        .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-4 <b><span class="cp">Apreciado aprendiz</span></b>, bienvenido a esta <b>experiencia de aprendizaje pensada en el segundo momento del proceso de embalsamamiento.</b> Para iniciar se invita a que revise el siguiente recurso de aprendizaje.
-            p.mb-0 <b>¡Bienvenido!</b>
+    
+    p.mb-5 Apreciado aprendiz, sea bienvenido a esta experiencia de aprendizaje enfocada en la gestión integral de residuos provenientes de actividades relacionadas con la prestación de servicios de salud y similares. Para iniciar, está invitado a revisar el siguiente recurso de aprendizaje.
+
+    .p-2.margenNegativo.mb-5(style='background-color: #D1EBEA')
+      p.mb-0.text-center
+        b Este componente de formación le brinda información sobre el manejo de los residuos obtenidos de actividades hospitalarias y similares
+
+    .row.justify-content-center.mb-4
+      .col-lg-6.align-self-center
+        figure.mb-4
+          img.mx-auto(src="@/assets/curso/img1.svg", alt="", style='width:566px;')
+      .col-lg-6
+        .titulo-segundo.mb-4
+          h3 ¿Por qué surge este momento?
+        p.mb-4 Surge debido a que la prestación de servicios de salud y similares generan desechos contaminantes debido al uso y manipulación de elementos que entran en contacto con:
+        figure.mb-4
+          img.mx-auto(src="@/assets/curso/img2.svg", alt="", style='')
 
 
-    .tarjeta.p-4.mb-5.sbg1
-      SlyderA
-        .row.align-items-center.justify-content-center
-          .col-md-6.mb-4.mb-md-0
-            .cajon-b.color-primario.p-4
-              p.mb-0 Esta experiencia de aprendizaje se enfoca en la realización del embalsamamiento del cadáver de acuerdo con los protocolos establecidos. En esta práctica histórica debe reconocer los cambios que suceden en un cuerpo después del cese de la actividad biológica y fisicoquímica. Uno de esos cambios es la descomposición, un proceso natural que lleva a reducir al cuerpo sin vida en partes mínimas.
-          .col-md-4
-            figure
-              img(src='@/assets/curso/if2.png' alt='Realización del embalsamamiento')
-        .row.align-items-center.justify-content-center
-          .col-md-4
-            figure
-              img(src='@/assets/curso/if3.png' alt='Desarrollo de conocimientos')
-          .col-md-6.mb-4.mb-md-0
-            .cajon-c.color-primario.p-4
-              p.mb-0 Debido a lo anterior, surge la necesidad del desarrollo de conocimientos, habilidades y actitudes en las personas que están interesadas en continuar su proyecto laboral en el servicio funerario.
-        .row.align-items-center.justify-content-center
-          .col-md-6.mb-4.mb-md-0
-            .cajon-b.color-primario.p-4
-              p.mb-0 Como es de su conocimiento, el proceso de embalsamamiento o tanatopraxia es una práctica central del servicio funerario, porque de ella depende la realización del traslado final del cuerpo sin comprometer la salubridad de las personas que estuvieron involucradas en el traslado inicial e intermedio.
-          .col-md-4
-            figure
-              img(src='@/assets/curso/if4.png' alt='Práctica central del servicio funerario')
+    figure.mb-5
+      img.mx-auto(src="@/assets/curso/img3.svg", alt="", style='')
 
-    .tarjeta-avatar-b.mb-4
-      .tarjeta-avatar-b__img(data-aos="fade-right")
-        img.mx-auto(src='@/assets/curso/if7.svg' alt='Señal de atención' style='width:135px;')
-      .tarjeta.tarjeta-white--color-red
-        .p-5
-          p.mb-0
-            b.cp Recuerde que el proceso de embalsamamiento 
-            b que se desarrolló en tres momentos: desinfección, preservación química y tanatoestética, debe cumplir con el 
-            b.cac uso de elementos de bioseguridad 
-            b para protegerse de uno o varios riesgos.
+    .row.justify-content-center
+      .col-lg-6.mb-4
+        .titulo-segundo.mb-4
+          h3 ¿Cuál es la intención de este momento?
+        p.mb-4 Desarrollar conocimientos, habilidades y actitudes necesarios para entender los protocolos y actividades que se deben acoger en la gestión integral de residuos y así suministrar un adecuado manejo, recolección y destino final de los residuos biosanitarios generados.
+        .cajon.color-secundario.p-4
+          p.mb-0 Finalmente, recuerde estos aspectos para iniciar y culminar con éxito el componente de formación.
+      .col-lg-6.mb-4
+        figure.mb-4
+          img.mx-auto(src="@/assets/curso/img4.svg", alt="imagen ambiental", style='width:495px;')
 
+    .row.justify-content-center.mb-4
+      .col-auto.mb-4
+        figure
+          img.mx-auto(src="@/assets/curso/img5.svg", alt="Organice un horario de estudio individual y colaborativo.", style='width:230px;')
+      .col-auto.mb-4
+        figure
+          img.mx-auto(src="@/assets/curso/img6.svg", alt="Revise las notificaciones del curso constantemente.", style='width:230px;')
+      .col-auto.mb-4
+        figure
+          img.mx-auto(src="@/assets/curso/img7.svg", alt="Participe de los foros y actividades sugeridas por el instructor.", style='width:230px;')
+      .col-auto.mb-4
+        figure
+          img.mx-auto(src="@/assets/curso/img8.svg", alt="Entregue las evidencias esperadas durante este componente de formación. Si tiene alguna inquietud no dude en escribirnos.", style='width:230px;')
+
+    .row.justify-content-center
+      .col-lg-6
+        .p-3.mb-5(style='background-color: #D1EBEA')
+          p.mb-0.text-center
+            b Si tiene alguna inquietud no dude en escribirnos. 
+
+    p.mb-5 Para la elaboración de este componente, se abordaron varios autores conocidos en 
+      b manejo de residuos hospitalarios y similares, 
+      b-none de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de 
+      b tanatopraxia.
+
+    
 </template>
 
 <script>

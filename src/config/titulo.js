@@ -1,1 +1,1 @@
-module.exports = 'Embalsamar la persona fallecida'
+module.exports = 'Manejo de residuos hospitalarios y similares'

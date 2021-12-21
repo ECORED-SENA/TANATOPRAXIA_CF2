@@ -93,13 +93,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Decreto 4741 de 2005 [Ministerio de Ambiente, Vivienda y Desarrollo Territorial]. Por el cual se reglamenta parcialmente la prevención y manejo de los residuos o desechos peligrosos generados en el marco de la gestión integral. Diciembre 30 de 2005.',
+        'Decreto 4741 de 2005 [Ministerio de Ambiente, Vivienda y Desarrollo Territorial]. Por el cual se reglamenta parcialmente la prevención y manejo de los residuos o desechos peligrosos generados en el marco de la gestión integral. Diciembre 30 de 2005. ',
       link:
         'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=18718',
     },
     {
       referencia:
-        'Decreto 351 del 2014. [Ministerio de Salud y Protección Social]. Por el cual se reglamenta la gestión integral de los residuos generados en la atención en salud y otras actividades. Febrero 19 de 2014.',
+        'Decreto 351 del 2014. [Ministerio de Salud y Protección Social]. Por el cual se reglamenta la gestión integral de los residuos generados en la atención en salud y otras actividades. Febrero 19 de 2014. ',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56755',
     },
@@ -111,7 +111,7 @@ export default {
     },
     {
       referencia:
-        'Ley 1562 de 2012. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional. Julio 11 de 2012. DO. Nº 48.488.',
+        'Ley 1562 de 2012. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional. Julio 11 de 2012. DO. Nº 48.488. ',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Ley-1562-de-2012.pdf',
     },
@@ -124,8 +124,8 @@ export default {
     {
       referencia:
         'Ministerio de Salud y Protección Social, Ministerio de Ambiente y Desarrollo Sostenible y Ministerio de Transporte. (2015). Proyecto de manual para la gestión integral de residuos generados en la atención de salud y otras actividades.<br>',
-      link:
-        'https://www.minambiente.gov.co/images/Atencion_y_particpacion_al_ciudadano/Consulta_Publica/V_22_Manual_Gesti%C3%B3n_Integral_16_12_14_CP.pdf',
+      //link:
+      //'https://www.minambiente.gov.co/images/Atencion_y_particpacion_al_ciudadano/Consulta_Publica/V_22_Manual_Gesti%C3%B3n_Integral_16_12_14_CP.pdf',
     },
   ],
   glosario: [
@@ -204,7 +204,7 @@ export default {
       {
         nombre: 'Jhacesiz Mary Hincapié Atehortúa',
         cargo:
-          'Instructora (EPC) – Líder desarrollo curricular Servicios Personales',
+          'Instructora (EPC) - Líder desarrollo curricular Servicios Personales',
         centro: 'Centro de Servicios de Salud - Regional Antioquia',
       },
       {

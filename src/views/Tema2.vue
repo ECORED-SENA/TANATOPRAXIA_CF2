@@ -31,7 +31,7 @@
       
       .tarjeta.tarjeta--gris(x="4%" y="37.5%")
         .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
-          .h5.text-white.mb-0 RADIOACIVO
+          .h5.text-white.mb-0 RESIDUO RADIOACTIVO
         .col-lg-12.px-3.py-3(style='') 
           p Son sustancias emisoras de energía predecible y continua en forma alfa, beta o de fotones, cuya interacción con materia puede dar lugar a rayos X y neutrones.
       
@@ -71,7 +71,7 @@
         .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
           .h5.text-white.mb-0 NO PELIGROSO
         .col-lg-12.px-3.py-3(style='')
-          p  Residuos que no poseen peligrosidad o riesgo de infección o contaminación al medio ambiente o a la persona. Entre ellos:<br> 1. Biogradables, 2. Reciclables, 3. Inertes, 4. Ordinarios.
+          p  Residuos que no poseen peligrosidad o riesgo de infección o contaminación al medio ambiente o a la persona. Entre ellos:<br> 1. Biodegradables, 2. Reciclables, 3. Inertes, 4. Ordinarios.
       
       .tarjeta.tarjeta--gris(x="60.5%" y="37%")
         .col-lg-12.px-3.py-3(style='background-color: #008F85; border-radius:5px; ')
@@ -182,7 +182,7 @@
             .col-md-12.mb-4.mb-md-0
               p.mb-4 Consiste en la separación, almacenamiento y transporte adecuado de los residuos generados al interior de la empresa. Este paso es fundamental para dar inicio al plan de manejo integral de residuos. Para la segregación de los residuos, se debe de contar con los recipientes o contenedores adecuados para evitar así que residuos no peligrosos se contaminen al tener contacto con residuos peligrosos.
               p.mb-5 Para la realización de este procedimiento, se debe de cumplir con ciertas condiciones, entre ellas se encuentran:
-              a.anexo.mb-4(:href="obtenerLink('/downloads/infografia.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/infografiap.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -230,8 +230,8 @@
 
           .row(numero="11" titulo="Programa de seguridad y salud el trabajador ")
             .col-md-12.mb-4.mb-md-0
-              p.mb-2 El Ministerio del Trabajo, comprometido con el mejoramiento de las políticas del cuidado al trabajador, estableció el
-                b Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST),
+              p.mb-2 El Ministerio del Trabajo, comprometido con el mejoramiento de las políticas del cuidado al trabajador, estableció el 
+                b Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST), 
                 b-none  el cual debe ser implementado por todos los empleadores, y consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua, lo cual incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en los espacios laborales  (Ministerio del Trabajo, Decreto 1072 de 2015 Libro 2, Parte 2, Título 4, Capítulo 6).
 
           .row(numero="12" titulo="Cronograma")
